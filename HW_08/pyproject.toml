@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hw-08"
+version = "0.1.0"
+description = ""
+authors = ["GhosteLLoS <123022357+GhosteLLoS@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_08"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.4.1"
+mongoengine = "^0.27.0"
+load = "^2020.12.3"
+db = "^0.1.1"
+redis = "^4.6.0"
+faker = "^19.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
